@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body {
+  color: #303030;
+}
+
+/* HEADER */
+  /* LOGO */
+  .logo {
+    color: #303030;
+  }
+  /* MEMU */
+  .menu {
+    border: 3px solid #303030;
+  }
+  .menu>div {
+    background-image: url("../svg/menu_panasonic.svg");
+  }
+  .menu.active>div {
+    background-image: url("../svg/menu_active_panasonic.svg");
+  }
+
+
+/* VISUAL */
+  /* BACKGROUND */
+  .bg_color-1 {
+    background-color: #B3B3B3;
+  }
+  .bg_color-2 {
+    height: 2427px;
+  }
+  /* BTN */
+  .pf-btn {
+    background-color: #303030;
+  }
+  .pf-btn:hover {
+    background-color: #444444;
+  }
+  /* PREVIEW */
+  .pf-preview-title p,
+  .pf-detail-title p {
+    color: #444444;
+  }
+  .pf-preview-title span,
+  .pf-detail-title span {
+    color: #B3B3B3;
+  }
+  /* DETAIL */
+  .pf-detail-item-title p {
+    color: #303030;
+  }
+
+/* QUICK BTN */
+.quick_item {
+  border: 3px solid #303030;
+}
+.quick_item span {
+  color: #303030;
+}
+
+/* TOP BTN */
+.top_btn {
+  border: 3px solid #303030;
+}
+.top_btn span {
+  color: #303030;
+}
+
+/* MENU DROPDOWN */
+.menu_dropdown>ul>li>a {
+  color: #303030;
+}
+.menu_dropdown>ul>li>a:hover {
+  border: 8px solid #303030;
+}

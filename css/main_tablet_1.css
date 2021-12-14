@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* VISUAL */
+.main_title {
+  width: 70vw;
+}
+.main_title p {
+  font-size: 121px;
+}

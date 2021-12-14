@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body {
+  color: #0E4557;
+}
+
+/* HEADER */
+  /* LOGO */
+  .logo {
+    color: #218FB3;
+  }
+  /* MEMU */
+  .menu {
+    border: 3px solid #218FB3;
+  }
+  .menu>div {
+    background-image: url("../svg/menu_jype.svg");
+  }
+  .menu.active>div {
+    background-image: url("../svg/menu_active_jype.svg");
+  }
+
+
+/* VISUAL */
+  /* BACKGROUND */
+  .bg_color-1 {
+    background-color: #CAD0FF;
+  }
+  .bg_color-2 {
+    height: 4705px;
+  }
+  /* BTN */
+  .pf-btn {
+    background-color: #218FB3;
+  }
+  .pf-btn:hover {
+    background-color: #2FAEFF;
+  }
+  /* PREVIEW */
+  .pf-preview-title p,
+  .pf-detail-title p {
+    color: #218FB3;
+  }
+  .pf-preview-title span,
+  .pf-detail-title span {
+    color: #2FAEFB;
+  }
+  /* DETAIL */
+  .pf-detail-item-title p {
+    color: #97E6FE;
+  }
+
+/* QUICK BTN */
+.quick_item {
+  border: 3px solid #218FB3;
+}
+.quick_item span {
+  color: #218FB3;
+}
+
+/* TOP BTN */
+.top_btn {
+  border: 3px solid #218FB3;
+}
+.top_btn span {
+  color: #218FB3;
+}
+
+/* MENU DROPDOWN */
+.menu_dropdown>ul>li>a {
+  color: #0E4557;
+}
+.menu_dropdown>ul>li>a:hover {
+  border: 8px solid #0E4557;
+}

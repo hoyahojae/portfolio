@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+  /* VIDEO */
+  @media screen and (max-aspect-ratio: 1219/685) {
+    .background video {
+      width: auto;
+      height: 100vh;
+    } 
+  }
+
+  /* BACKGROUND */
+  .bg_color {
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  /* VISUAL */
+  main {
+    position: relative;
+    overflow: hidden;
+  }
+    /* BACKGROUND */
+    .portfolio-slide {
+      display: none;
+    }
+    .portfolio-slide.active {
+      display: block;
+    }
+    /* LIST */
+    .portfolio-list {
+      width: 100vw;
+      height: 46.2963vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      bottom: 14vh;
+      right: 0;
+      overflow: scroll;
+      padding-left: 25vw;
+      box-sizing: border-box;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .portfolio-list::-webkit-scrollbar {
+      display: none;
+    }
+    .portfolio-list>div {
+      display: flex;
+      height: 100%;
+    }
+    .portfolio-list>div>li {
+      width: 26.0417vw;
+      height: 100%;
+      border-radius: 20px;
+      box-sizing: border-box;
+      flex-shrink: 0;
+      margin-right: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+      transition: all .2s ease-in-out;
+    }
+    .portfolio-list .portfolio-list-item.active {
+      border: 8px solid #f1f1f1;
+    }
+    .portfolio-list>div>li>div {
+      text-align: right;
+    }
+    .portfolio-list .pf-title {
+      font-family: 'S-CoreDream-6Bold';
+      font-size: 3.25em;
+      letter-spacing: -0.06em;
+      margin-top: 20px;
+    }
+    .portfolio-list .pf-line {
+      width: 90%;
+      height: 8px;
+      background-color: #f1f1f1;
+      position: absolute;
+      top: 50%;
+      right: 0;
+    }
+    .portfolio-list p {
+      line-height: 24px;
+      margin-top: 52px;
+      margin-bottom: 12px;
+    }
+    .portfolio-list .pf-btn {
+      display: inline-flex;
+    }
+    .portfolio-list .pf-btn img {
+      margin-left: 8px;
+    }

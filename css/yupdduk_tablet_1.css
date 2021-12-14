@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* HEADER */
+.menu {
+  border: 2px solid #9A2539;
+}
+
+/* VISUAL */
+.bg_color-2 {
+  height: 4385px;
+}
+
+/* QUICK BTN */
+.quick_item {
+  border: 2px solid #9A2539;
+}
+
+/* TOP BTN */
+.top_btn {
+  border: 2px solid #9A2539;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* VISUAL */
+.portfolio-list>div>li {
+  width: 344px;
+  margin-right: 12px;
+}
+.portfolio-list .portfolio-list-item.active {
+  border: 6px solid #f1f1f1;
+}
+.portfolio-list .pf-title {
+  font-size: 32px;
+  margin-top: 12px;
+}
+.portfolio-list .pf-line {
+  height: 6px;
+  top: 45%;
+}
+.portfolio-list p {
+  font-size: 12px;
+  margin-top: 48px;
+  margin-bottom: 8px;
+}
+.portfolio-list .pf-btn {
+  font-size: 12px;
+  font-family: 'S-CoreDream-5Medium';
+}
+.portfolio-list .pf-btn img {
+  height: 12px;
+}

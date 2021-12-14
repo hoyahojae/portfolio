@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* HEADER */
+.logo {
+  color: #555;
+}
+.menu {
+  border: 3px solid #555;
+}
+.menu>div {
+  background-image: url("../svg/menu_black.svg");
+}
+.menu.active>div {
+  background-image: url("../svg/menu_active_black.svg");
+}
+
+/* VISUAL */
+#contact_name {
+  font-size: 95px;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+#contact_num {
+  font-size: 57px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#contact_num a {
+  color: #05757d;
+}
+#contact_email {
+  font-size: 38px;
+}
+#contact_email a {
+  color: #0a30b2;
+}
+#contact_github {
+  font-size: 77px;
+  margin-right: 10px;
+}
+#contact_github a {
+  color: #057d0d;
+}
+#contact_kakao {
+  font-size: 77px;
+}
+#contact_kakao a {
+  color: #07b213;
+}
+
+/* QUICK BTN */
+.quick_item {
+  border: 3px solid #555;
+}
+.quick_item span {
+  color: #555;
+}
+
+/* MENU DROPDOWN */
+.menu_dropdown {
+  background-color: rgba(85, 85, 85, .1);
+}
+.menu_dropdown>ul>li>a {
+  color: #555;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+  <title>JAEHO SPREAD ANYWHERE</title>
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="JAEHO SPREAD ANYWHERE" />
+  <meta property="og:title" content="JAEHO'S PORTFOLIO" />
+  <meta property="og:description" content="한재호의 웹퍼블리싱 포트폴리오" />
+  <meta property="og:image" content="./images/card_img.png" />
+  <meta property="og:url" content="#" />
+
+  <!-- TWITTER CARD -->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="JAEHO SPREAD ANYWHERE" />
+  <meta property="twitter:title" content="JAEHO'S PORTFOLIO" />
+  <meta property="twitter:description" content="한재호의 웹퍼블리싱 포트폴리오" />
+  <meta property="twitter:image" content="./images/card_img.png" />
+  <meta property="twitter:url" content="#" />
+
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./favicon/site.webmanifest" />
+  <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- CSS RESET -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+  <!-- MATERIAL ICON -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/font.css" />
+  <link rel="stylesheet" href="./css/common.css" />
+  <link rel="stylesheet" href="./css/portfolio.css" />
+    <!-- TABLET -->
+    <link rel="stylesheet" media="(max-width: 1024px)" href="./css/common_tablet_1.css" />
+    <link rel="stylesheet" media="(max-width: 1024px)" href="./css/portfolio_tablet_1.css" />
+    <link rel="stylesheet" media="(max-width: 768px)" href="./css/portfolio_tablet_2.css" />
+    <!-- SMARTPHONE -->
+    <link rel="stylesheet" media="(max-width: 375px)" href="./css/common_smartphone_1.css" />
+    <link rel="stylesheet" media="(max-width: 375px)" href="./css/portfolio_smartphone_1.css" />
+
+  <!-- JS -->
+  <script src="./js/common.js" defer></script>
+  <script src="./js/portfolio.js" defer></script>
+  <script src="./js/portfolio_active.js" defer></script>
+
+</head>
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+
+  <!-- HEADER -->
+  <header>
+
+    <!-- LOGO -->
+    <a href="./index.html" class="logo"><div>JAEHO'S PORTFOLIO</div></a>
+
+    <!-- MENU -->
+    <div class="menu" id="menu_berger"><div></div></div>
+
+  </header>
+
+  <!-- VISUAL -->
+  <main class="container">
+
+    <!-- BACKGROUND -->
+      <!-- 엽기떡볶이 -->
+      <div class="portfolio-slide active" id="yubddukVideo">
+        <div class="background">
+          <!-- VIDEO -->
+          <video muted autoplay loop>
+            <source src="./videos/portfolio_video_1.mp4" />
+          </video>
+        </div>
+        <div class="bg_color"></div>
+      </div>
+
+      <!-- JYPE -->
+      <div class="portfolio-slide" id="jypeVideo">
+        <div class="background">
+          <!-- VIDEO -->
+          <video muted autoplay loop>
+            <source src="./videos/portfolio_video_2.mp4" />
+          </video>
+        </div>
+        <div class="bg_color"></div>
+      </div>
+
+      <!-- Panasonic -->
+      <div class="portfolio-slide" id="panasonicVideo">
+        <div class="background">
+          <!-- VIDEO -->
+          <video muted autoplay loop>
+            <source src="./videos/portfolio_video_3.mp4" />
+          </video>
+        </div>
+        <div class="bg_color"></div>
+      </div>
+
+    <!-- LIST -->
+    <ul class="portfolio-list">
+      <div>
+        <li class="portfolio-list-item active" id="yubdduk"><div><a href="./yupdduk.html">
+          <span class="pf-subs">RENEWAL</span>
+          <div class="pf-title">동대문엽기떡볶이</div>
+          <div class="pf-line"></div>
+          <p>
+            맛있게 매운 맛으로 수 많은 고객들을 매니아로 만든 맛 <br />
+            가족, 친구, 연인, 동료 등 좋은 사람들과 함께 즐길 수 있는 <br />
+            불닭발땡초동대문엽기떡볶이입니다.
+          </p>
+          <div class="pf-btn">
+            MORE
+            <img src="./svg/more_icon.svg" alt="자세히보기">
+          </div>
+        </a></div></li>
+        <li class="portfolio-list-item" id="jype"><div><a href="./jype.html">
+          <span class="pf-subs">RENEWAL</span>
+          <div class="pf-title">JYP 엔터테인먼트</div>
+          <div class="pf-line"></div>
+          <p>
+            LEADER IN ENTERTAINENT <br />
+            JYP 엔터테인먼트는 이를 모토로 엔터테인먼트 산업을 <br />
+            주도하는 기업이 되기 위해 끊임없이 정진하고 있습니다.
+          </p>
+          <div class="pf-btn">
+            MORE
+            <img src="./svg/more_icon.svg" alt="자세히보기">
+          </div>
+        </a></div></li>
+        <li class="portfolio-list-item" id="panasonic"><div><a href="./panasonic.html">
+          <span class="pf-subs">RENEWAL</span>
+          <div class="pf-title">Panasonic</div>
+          <div class="pf-line"></div>
+          <p>
+            급속하게 변화해 가는 세상에서 저희는 <br />
+            'A Better Life, A Better World'의 실현을 기여하고, <br />
+            아울러 고객과 함께 발전해 나갈 수 있도록 노력하고 있습니다.
+          </p>
+          <div class="pf-btn">
+            MORE
+            <img src="./svg/more_icon.svg" alt="자세히보기">
+          </div>
+        </a></div></li>
+      </div>
+    </ul>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    COPYRIGHT&nbsp;<span class="this-year"></span>&nbsp;<b>HAN JAEHO</b>&nbsp;ALL RIGHTS RESERVED.
+  </footer>
+
+  <!-- QUICK BTN -->
+  <div class="quick_btn">
+    <a href="https://github.com/hoyahojae" class="quick_item" target="_blank"><div><img src="./svg/gitHub_icon.svg" alt="Github" /></div></a>
+    <a href="tel:0502-1911-3003" class="quick_item"><div><span class="material-icons">call</span></div></a>
+    <a href="https://open.kakao.com/o/sOqB9RLd" class="quick_item"><div><img src="./svg/kakaotalk_icon.svg" alt="Open Kakaotalk" /></div></a>
+    <a href="mailto:hoyahojae@gmail.com" class="quick_item"><div><span class="material-icons">email</span></div></a>
+  </div>
+
+  <!-- MENU DROPDOWN -->
+  <div class="menu_dropdown" id="menu_active">
+    <ul>
+      <li><a href="./index.html">HOME</a></li>
+      <li><a href="./portfolio.html">PORTFOLIO</a></li>
+      <li><a href="./contact.html">CONTACT</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
