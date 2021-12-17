@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body {
+  overflow: auto;
   font-size: 12px;
 }
 
@@ -63,6 +64,9 @@ footer {
 }
 
 /* MENU DROPDOWN */
+.menu_dropdown {
+  background-color: rgba(85, 85, 85, .8);
+}
 .menu_dropdown>ul>li>a {
   padding: 20px 24px 12px 24px;
   margin-bottom: 0;

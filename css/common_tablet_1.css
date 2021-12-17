@@ -2,6 +2,7 @@
 
 body {
   font-size: 14px;
+  overflow: visible;
 }
 
 /* HEADER */
@@ -39,6 +40,7 @@ header {
 /* FOOTER */
 footer {
   font-size: 0.71rem;
+  padding: 40px;
 }
 
 /* QUICK BTN */
@@ -59,6 +61,9 @@ footer {
 }
 
 /* MENU DROPDOWN */
+.menu_dropdown {
+  background-color: rgba(85, 85, 85, .8);
+}
 .menu_dropdown>ul>li>a {
   padding: 24px 40px 16px 40px;
   margin-bottom: 12px;

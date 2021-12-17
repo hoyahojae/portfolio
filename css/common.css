@@ -79,9 +79,7 @@ footer {
   bottom: 0;
   left: 0;
   padding: 24px;
-  display: flex;
-  justify-content: right;
-  align-items: center;
+  text-align: right;
   box-sizing: border-box;
   font-size: 0.875rem;
   z-index: 99;
