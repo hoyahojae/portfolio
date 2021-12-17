@@ -58,7 +58,7 @@
 
 /* MENU DROPDOWN */
 .menu_dropdown {
-  background-color: rgba(85, 85, 85, .1);
+  background-color: rgba(242, 242, 242, .8);
 }
 .menu_dropdown>ul>li>a {
   color: #555;

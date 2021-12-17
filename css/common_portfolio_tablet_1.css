@@ -124,6 +124,9 @@ footer {
 }
 
 /* MENU DROPDOWN */
+.menu_dropdown {
+  background-color: rgba(242, 242, 242, .8);
+}
 .menu_dropdown>ul>li>a {
   padding: 24px 40px 16px 40px;
   margin-bottom: 12px;
