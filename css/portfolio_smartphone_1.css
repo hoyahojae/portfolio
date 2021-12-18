@@ -1,6 +1,17 @@
 @charset "UTF-8";
+body {
+  background-image: none;
+}
 
 /* VISUAL */
+.portfolio-slide {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.portfolio-slide video {
+  display: none;
+}
 .portfolio-list {
   width: 100vw;
   height: 100vh;
@@ -57,3 +68,8 @@
   height: 10px;
   margin-left: 4px;
 }
+
+/* BACKGROUND IMG */
+#yubddukVideo { background-image: url("../images/portfolio_bg_1.png"); }
+#jypeVideo { background-image: url("../images/portfolio_bg_2.png"); }
+#panasonicVideo { background-image: url("../images/portfolio_bg_3.png"); }
