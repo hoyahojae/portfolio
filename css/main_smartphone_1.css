@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+body {
+  background-image: url("../images/smartphone_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 video {
   display: none;
 }
