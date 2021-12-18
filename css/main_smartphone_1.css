@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+video {
+  display: none;
+}
+
 /* VISUAL */
 .main_title {
   width: 80vw;

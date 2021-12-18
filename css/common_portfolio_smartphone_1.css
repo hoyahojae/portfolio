@@ -12,6 +12,7 @@
 .menu {
   top: 20px;
   right: 20px;
+  background-color: rgba(241, 241, 241, .5);
 }
 
 .pf-preview-all {
@@ -103,14 +104,20 @@ footer .inner {
   text-align: center;
 }
 
+/* QUICK BTN */
+.quick_item {
+  background-color: rgba(241, 241, 241, .5);
+}
+
 /* TOP BTN */
 .top_btn {
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
   margin-right: 20px;
   margin-bottom: 20px;
   border-radius: 6px;
+  background-color: rgba(241, 241, 241, .5);
 }
 .top_btn span {
-  font-size: 16px;
+  font-size: 20px;
 }
