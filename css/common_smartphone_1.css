@@ -3,6 +3,13 @@
 body {
   overflow: auto;
   font-size: 12px;
+  background-image: url("../images/smartphone_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+video {
+  display: none;
 }
 
 /* HEADER */
@@ -20,18 +27,18 @@ header {
   }
   /* MENU */
   .menu {
-    width: 24px;
-    height: 24px;
+    width: 36px;
+    height: 36px;
     border: 2px solid #f1f1f1;
-    border-radius: 6px;
+    border-radius: 7px;
   }
   .menu>div {
-    width: 14px;
-    height: 12px;
+    width: 20px;
+    height: 18px;
   }
   .menu.active>div {
-    width: 12px;
-    height: 12px;
+    width: 20px;
+    height: 20px;
   }
   .menu:hover {
     opacity: 1;
@@ -64,9 +71,6 @@ footer {
 }
 
 /* MENU DROPDOWN */
-.menu_dropdown {
-  background-color: rgba(85, 85, 85, .8);
-}
 .menu_dropdown>ul>li>a {
   padding: 20px 24px 12px 24px;
   margin-bottom: 0;
