@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 /* VISUAL */
+.portfolio-list {
+  height: 25.6223vh;
+}
 .portfolio-list>div>li {
   width: 344px;
   margin-right: 12px;
