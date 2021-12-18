@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+.bg_color-1 {
+  height: 30vh;
+}
+.bg_color-2 {
+  height: 626.3499vh;
+  top: 30vh;
+}
+
 .menu {
   border: 2px solid #9A2539;
 }

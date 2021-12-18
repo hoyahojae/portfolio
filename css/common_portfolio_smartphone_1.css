@@ -21,8 +21,8 @@
 .pf-title {
   align-items: flex-start;
   box-sizing: border-box;
-  height: calc(100vh - 40px);
-  padding-top: 150px;
+  height: 55vh;
+  padding-top: 100px;
 }
 .pf-text {
   font-size: 20px;
