@@ -126,6 +126,7 @@ footer b {
   transition: all .3s ease-in-out;
   background-color: rgba(241, 241, 241, .1);
   backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
   display: flex;
   justify-content: center;
   align-items: center;

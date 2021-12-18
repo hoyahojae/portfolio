@@ -11,8 +11,3 @@ body {
 .main_title p {
   font-size: 11.8vw;
 }
-
-/* MENU DROPDOWN */
-.menu_dropdown {
-  background-color: rgba(85, 85, 85, .8);
-}
